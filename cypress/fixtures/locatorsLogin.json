@@ -1,0 +1,5 @@
+{
+    "inputUsuario": "[data-test='username']",
+    "inputContraseña": "[data-test='password']",
+    "botonLogin": "#login-button"
+}

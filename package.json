@@ -1,0 +1,29 @@
+{
+  "name": "tech-challenge",
+  "version": "1.0.0",
+  "description": "challenge",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:chrome": "cypress run --browser chrome",
+    "cypress:firefox": "cypress run --browser firefox",
+    "cypress:edge": "cypress run --browser edge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maurovalls/tech-challenge.git"
+  },
+  "author": "Valls Mauro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maurovalls/tech-challenge/issues"
+  },
+  "homepage": "https://github.com/Maurovalls/tech-challenge#readme",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
