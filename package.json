@@ -8,7 +8,9 @@
     "cypress:run": "cypress run",
     "cypress:chrome": "cypress run --browser chrome",
     "cypress:firefox": "cypress run --browser firefox",
-    "cypress:edge": "cypress run --browser edge"
+    "cypress:edge": "cypress run --browser edge",
+    "cypress:run:gui": "cypress run --headless --spec 'cypress/e2e/gui-tests/**/*.cy.js'",
+    "cypress:run:api": "cypress run --headless --spec 'cypress/e2e/api-tests/**/*.cy.js'"
   },
   "repository": {
     "type": "git",

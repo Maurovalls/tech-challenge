@@ -9,6 +9,8 @@ module.exports = defineConfig({
     env: {
       CYPRESS_USERNAME: 'standard_user', 
       CYPRESS_PASSWORD: 'secret_sauce',
+      baseUrl: 'https://www.saucedemo.com/v1/index.html', 
+      apiUrl: 'https://reqres.in/api'
     },
 
   },
