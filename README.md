@@ -25,10 +25,14 @@ Sigue estos pasos para clonar y configurar el proyecto:
 
 A continuación, se explican los comandos que puedes usar:
 
-npm run cypress:open: Abre la interfaz de Cypress para pruebas interactivas.
+npm run cypress:open: Abre la interfaz de Cypress para pruebas interactivas. 
+
 npm run cypress:run: Ejecuta todas las pruebas en modo headless.
+
 npm run test: Ejecuta las pruebas utilizando Cypress.
+
 npm run cypress:run:gui: Ejecuta las pruebas de GUI en modo headless.
+
 npm run cypress:run:api: Ejecuta las pruebas de API en modo headles.
 
 
@@ -46,6 +50,7 @@ Cypress (instalado con npm install)
 El proyecto tiene dos carpetas principales para pruebas:
 
 e2e/api-tests: Contiene las pruebas de API.
+
 e2e/gui-tests: Contiene las pruebas de la interfaz gráfica.
 
 
@@ -61,4 +66,5 @@ Si prefieres un entorno interactivo:
 
 
 🔧 Integración continua con GitHub Actions
+
 Este proyecto está configurado para ejecutar pruebas automáticamente usando GitHub Actions cada vez que se haga un push a la rama main.
